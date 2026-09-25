@@ -122,7 +122,7 @@ export default function GovHeader() {
             />
             <div className="gov-portal-titles">
               <h1 className="gov-portal-main-title">
-                {lang === 'hi' ? 'राष्ट्रीय छात्रवृत्ति सहायता पोर्टल' : 'National Scholarship Assistance Portal'}
+                {lang === 'hi' ? 'राष्ट्रीय छात्रवृत्ति सहायता पोर्टल' : 'MoTA Scholarship & Fellowship Assistance Portal'}
               </h1>
               <p className="gov-portal-sub-title">
                 {lang === 'hi' ? 'सरकारी छात्रवृत्ति सेवाएँ' : 'Government Scholarship Services'}
