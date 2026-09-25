@@ -114,7 +114,7 @@ export default function GovHeader() {
         <div className="gov-container flex items-center justify-between">
           <Link to="/" className="gov-brand-cluster flex items-center gap-3">
             <img
-              src="/emblem.svg"
+              src="/Emblem.jpg"
               alt="State Emblem of India"
               className="gov-emblem-img"
               width="46"
