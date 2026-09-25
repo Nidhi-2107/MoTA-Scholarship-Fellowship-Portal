@@ -1,0 +1,66 @@
+# ==============================================================================
+# MoTA Scholarship & Fellowship OS - .gitignore
+# ==============================================================================
+
+# Environment files (NEVER commit secrets)
+.env
+.env.local
+.env.*.local
+# Allow .env.example (contains no secrets)
+!.env.example
+
+# Frontend environment
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+!frontend/.env.example
+
+# Dependency directories
+node_modules/
+target/
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE and Editor files
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build outputs
+frontend/dist/
+frontend/dist-ssr/
+frontend/build/
+
+# Local uploads & file storage (filesystem storage, not in VCS)
+uploads/
+temp_ocr/
+storage_data/
+
+# Maven wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# Spring Boot
+HELP.md

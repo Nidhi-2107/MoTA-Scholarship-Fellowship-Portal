@@ -1,0 +1,18 @@
+package com.mota.scholarship.workflow;
+
+public enum ApplicationStatus {
+    DRAFT,
+    SUBMITTED,
+    DOCUMENT_PROCESSING,
+    AUTOMATED_VERIFICATION,
+    DEFICIENT,
+    APPLICANT_RESUBMISSION,
+    OFFICER_SCRUTINY,
+    ELIGIBILITY_VERIFIED,
+    SCREENING,
+    SELECTION,
+    APPROVED,
+    NOT_SELECTED,
+    SANCTIONED,
+    DISBURSED
+}
